@@ -104,7 +104,7 @@ button{
 }
 
 .get{
-    font-size: 22px;
+    font-size: 23px;
     padding: 15px 25px;
     border-radius: 5px;
     font-weight: 500;
@@ -114,7 +114,7 @@ button{
 }
 
 .line{
-    width: 100vw;
+    width: 100%;
     height: 8px;
     background-color: rgb(39, 39, 39);
 }
@@ -141,6 +141,7 @@ button{
     align-items: center;
     justify-content: center;
     gap: 20px;
+    padding: 60px;
 }
 
 .mid img{
@@ -174,5 +175,153 @@ button{
     width: 498px;
 }
 
+.prime{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 29px;
+    padding: 60px;
+}
 
+.shows{
+    font-size: 48px;
+    font-weight: bolder;
+    padding: 15px 0;
+}
 
+.save{
+    font-size: 24px;
+}
+
+.bro{
+    width: 30vw;
+}
+
+.milly img{
+    height: 400px;
+}
+
+.saif video{
+    position: absolute;
+    right: 93px;
+    height: 268px;
+    width: 318px;
+}
+
+.saif{
+    position: relative;
+    
+}
+
+.faq{
+    font-size: 48px;
+    font-weight: bolder;
+    padding-top: 80px;
+    padding-bottom: 25px;
+}
+
+.sup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.boxd:hover{
+    background: #414141;
+}
+
+.boxd{
+    transition: all 0.25s ease-out;
+    height: 90px;
+    width: 1190px;
+    border: none;
+    background-color: rgb(45, 45, 45);
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    padding: 0 25px;
+    font-weight: 400;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.universe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.res{
+    font-size: 20px;
+}
+
+.manchala .star input{
+    font-size: 16px;
+    padding: 17px;
+    border-radius: 5px;
+    width: 350px;
+    background-color: rgba(21, 21, 21, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.484);
+    font-weight: bold;
+    color: white;
+}
+
+.manchala{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.sher{
+    padding-bottom: 74px;
+}
+
+select{
+    background-color: black;
+}
+
+.peak{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 60vw;
+    margin: auto;
+}
+
+.speed{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+u{
+    cursor: pointer;
+}
+
+.call{
+    max-width: 60vw;
+    margin: auto;
+    padding-top: 80px;
+    font-size: 16px;
+}
+
+.sel{
+    max-width: 60vw;
+    margin: auto;
+    padding: 30px;
+}
+
+select{
+    font-size: 18px;
+}
+
+.ind{
+    max-width: 60vw;
+    margin: auto;
+}
