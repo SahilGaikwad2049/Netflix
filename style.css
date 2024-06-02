@@ -9,6 +9,8 @@
 
 body{
     background-color: black;
+    /* width: 100;
+    margin: auto; */
 }
 
 
@@ -34,8 +36,8 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* width: 90vw;
-    margin: auto; */
+    width: 90vw;
+    margin: auto;
     padding: 22px;
 }
 
@@ -121,6 +123,7 @@ button{
     width: 100%;
     height: 8px;
     background-color: rgb(39, 39, 39);
+    margin: auto;
 }
 
 .text input{
@@ -359,6 +362,8 @@ u{
 
 footer{
     padding: 60px 0px;
+    width: 60vw;
+    margin: auto;
 }
 
 .speed div a{
@@ -414,4 +419,88 @@ footer{
 
 .gid{
     height: 55px;
+}
+
+/* section{
+    width: 60vw;
+    margin: auto;
+} */
+
+@media screen and (max-width: 1000px){
+    .movi{
+        font-size: 32px;
+    }
+    .watch{
+        font-size: 20px;
+    }
+    .ready{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1395px){
+    .aple{
+        font-size: 24px;
+        width: 40vw;
+    }
+    .amor{
+        font-size: 50px;
+        font-weight: bolder;
+        padding: 15px 0;
+    }
+    .mid img{
+        width: 530px; 
+        position: relative;
+        z-index: 1;
+        
+    }
+    .dev video{
+        position: absolute;
+        top: 75px;
+        right: 0px;
+        height: 224px;
+        width: 530px;
+    }
+}
+
+@media screen and (max-width: 1395px){
+    .shows{
+        font-size: 43px;
+        font-weight: bolder;
+        padding: 15px 0;
+    }
+    
+    .save{
+        font-size: 20px;
+    }
+    
+    .bro{
+        width: 40vw;
+    }
+    .milly .boby{
+        height: 450px;
+    }
+
+    .media{
+        margin-left: 135px;
+    }
+
+    .saif video{
+    position: absolute;
+    right: 93px;
+    height: 296px;
+    width: 339px;
+    }
+}
+
+@media screen and (max-width: 1300px){
+    
+}
+
+@media screen and (max-width: 1200px){
+    
+}
+
+@media screen and (max-width: 1200px){
+    
 }
