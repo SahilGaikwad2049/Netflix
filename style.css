@@ -18,14 +18,14 @@ body{
     position: relative;
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: max(1000px, 128vw);
+    background-size: max(1000px, 130vw);
 }
 
 .main .box{
     width: 100%;
     height: 65vh;
     background-color: black;
-    opacity: 0.7;
+    opacity: 0.69;
     position: absolute;
     top: 0;
 }
@@ -185,6 +185,7 @@ button{
     align-items: center;
     gap: 29px;
     padding: 60px;
+    position: relative;
 }
 
 .shows{
@@ -367,4 +368,50 @@ footer{
 .bet{
     display: flex;
     gap: 12px;
+}
+
+.media{
+    display: flex;
+    border: 2px solid #ffffff4d;
+    height: 55px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 11px;
+    bottom: 90px;
+    position: absolute;
+    margin-left: 105px;
+    gap: 90px;
+    background-color: black;
+}
+
+.media img{
+    height: 45px;
+    width: auto;
+}
+
+.media .cover{
+    height: 100%;
+    width: 45px;
+}
+
+.med{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    
+}
+
+.str{
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.downy{
+    font-size: 11px;  
+    color: #0071eb;
+}
+
+.gid{
+    height: 55px;
 }
